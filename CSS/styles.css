@@ -1,0 +1,144 @@
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #fff;
+}
+
+h1{
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight:600;
+  letter-spacing: 0.3rem;
+  color: #343a40;
+}
+
+
+/* Container */
+
+.nbar {
+  padding: 0;
+}
+.container-top .col-md-3 {
+  padding: 0;
+  background-color: #F0361B;
+  text-align: center;
+}
+.container-top .col-md-9, .container-top2 .col-md-9 {
+  padding: 0;
+  background-color: #F0361B;
+}
+
+.container-top .block {
+  background-color: #343a40;
+  height: 1rem;
+}
+
+.container-top .block0 {
+  background-color: #fff;
+  height: 0.5rem;
+}
+
+.container-top .block2 {
+  background-color: #fff;
+  height: 1rem;
+}
+
+.profilepic-img{
+  margin: 3% 5% 3% 5%;
+  width: 12rem;
+  height:  12rem;
+  border: 5px solid #fff;
+}
+
+.header .row .col-3, .header .row .col {
+  background-color: #F0361B;
+}
+
+.content .row .col-md-3,  .footer .row .col-md-3 {
+  background-color: #343a40;
+}
+
+.preheader .preheader-div {
+    height: 4rem;
+    background-color: #343a40;
+}
+
+.container-fluid .nbar {
+    padding: 0;
+}
+
+.content-h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: lighter;
+  color: #F0361B;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sub-heading {
+  font-family: 'Anton', sans-serif;
+  font-weight: lighter;
+  color: #000;
+
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.content-p {
+  font-family: 'Economica', sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.appimg {
+  width: 8rem;
+  height: 8rem;
+  display: none;
+}
+
+.dbimg {
+  width: 20rem;
+  height: 8rem;
+  display: none;
+}
+
+.float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  color: #092532;
+  border-radius: 100%;
+  text-decoration: none;
+  z-index: 1;
+  visibility:hidden;
+  margin: 0;
+}
+
+.my-float {
+  margin-top: 0;
+}
+
+#footer {
+  color: white;
+  font-size: 1rem;
+  background-color: #092532;
+  text-align: center;
+}
+
+.footer-img {
+  padding: 10px;
+}

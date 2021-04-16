@@ -1,0 +1,178 @@
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #fff;
+}
+
+h1{
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight:600;
+  letter-spacing: 0.3rem;
+  color: #343a40;
+  margin-left: 1rem;
+}
+
+.float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  color: #092532;
+  border-radius: 100%;
+  text-decoration: none;
+  z-index: 1;
+  visibility:hidden;
+  margin: 0;
+}
+
+.my-float {
+  margin-top: 0;
+}
+
+
+/* Body */
+
+.appimg {
+  width: 12rem;
+  height: 12rem;
+  filter: drop-shadow(2px 2px 2px #fff);
+  display: none;
+}
+
+.dbimg {
+  width: 20rem;
+  height: 8rem;
+  filter: drop-shadow(2px 2px 2px #fff);
+  display: none;
+}
+
+/* .profilepic-img{
+  top: 7.5rem;
+  left: 6rem;
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  border: 4px solid #fff;
+} */
+
+.flex-container{
+  display: flex;
+  flex-direction:row;
+  padding: 0.1rem 0.1rem 0 0.1rem;
+  flex: 0 0;
+}
+
+.flex-container-bottom{
+  display: flex;
+  flex-direction:row;
+  padding:0 0.1rem;
+  flex: 0 0;
+}
+
+.flex-item:first-child {
+  background-color: #343a40;
+}
+
+.flex-item:last-child {
+  background-color: #fff;
+}
+
+.carousel-inner {
+  text-align: center;
+  margin: 1rem;
+}
+
+.carousel-inner h1{
+  color: #F0361B;
+}
+
+.flex-item-max {
+  width: 89vw;
+}
+
+.item1-top{
+  width: 30vw;
+  height: 15vh;
+}
+
+.item2-top{
+  width: 69vw;
+  height: 15vh;
+}
+
+.item1-mid{
+  background-color: #F0361B;
+  width: 30vw;
+  height: 20vh;
+}
+
+.item2-mid{
+  background-color: #F0361B;
+  width: 69vw;
+  height: 20vh;
+}
+
+.item1-bottom{
+  width: 30vw;
+  height: 10vh;
+}
+
+.item2-bottom{
+  width: 69vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.item1{
+  width: 30vw;
+}
+
+.item2{
+  width: 69vw;
+}
+
+
+.content-h3 {
+  font-family: 'Anton', sans-serif;
+  font-weight: lighter;
+  color: #F0361B;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content-p {
+  font-family: 'Economica', sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#footer {
+  color: white;
+  font-size: 1rem;
+  background-color: #092532;
+  text-align: center;
+}
+
+.footer-img {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
