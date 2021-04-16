@@ -11,6 +11,7 @@ h1{
   font-family: 'Anton', sans-serif;
   letter-spacing: 0.5rem;
   font-size: 4rem;
+  margin-top: 4rem;
 }
 
 h3{
@@ -177,4 +178,14 @@ hr{
 
 .footer-img {
   padding: 10px;
+}
+
+
+@media only screen and (max-width:600px) {
+
+  h1{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+  }
+
 }
