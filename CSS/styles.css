@@ -27,12 +27,13 @@ h3{
 .nbar {
   padding: 0;
 }
-.container-top .col-md-3 {
+.container-top .col-md-3{
   padding: 0;
   background-color: #F0361B;
   text-align: center;
 }
-.container-top .col-md-9, .container-top2 .col-md-9 {
+
+.container-top .col-md-9 {
   padding: 0;
   background-color: #F0361B;
 }
@@ -46,6 +47,16 @@ h3{
   background-color: #fff;
   height: 0.5rem;
 }
+.container-content .col-md-3  {
+  background-color: #343a40;
+}
+
+.container-content .col-md-9 {
+  background-color: #fff;
+}
+
+
+
 
 .container-top .block2 {
   background-color: #fff;
@@ -104,8 +115,8 @@ h3{
 }
 
 .appimg {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   display: none;
 }
 
