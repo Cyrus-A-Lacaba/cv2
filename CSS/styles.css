@@ -32,6 +32,7 @@ hr{
 .nbar {
   padding: 0;
 }
+
 .container-top .col-md-3{
   padding: 0;
   background-color: #F0361B;
@@ -115,9 +116,11 @@ hr{
 
 .content-p {
   font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
   color: #fff;
   margin-left: 1rem;
   margin-right: 1rem;
+  word-wrap: break-word;
 }
 
 .content-h5-2a {
@@ -143,12 +146,16 @@ hr{
 .appimg {
   width: 6rem;
   height: 6rem;
-  display: none;
+
 }
 
 .dbimg {
   width: 20rem;
   height: 8rem;
+
+}
+
+.home-visibility{
   display: none;
 }
 
@@ -161,7 +168,6 @@ hr{
   border-radius: 100%;
   text-decoration: none;
   z-index: 1;
-  visibility:hidden;
   margin: 0;
 }
 
@@ -181,11 +187,27 @@ hr{
 }
 
 
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width:900px) {
   h1{
-    font-size: 3.5rem;
-    margin-top: 3rem;
+    font-size: 2.3rem;
+    margin-top: 2rem;
   }
+
+  .profilepic-img{
+    width: 10.5rem;
+    height:  10.5rem;
+  }
+
+  .appimg {
+    width: 4rem;
+    height: 4rem;
+
+  }
+
+  .dbimg {
+    width: 14rem;
+    height: 4rem;
+  }
+
 
 }

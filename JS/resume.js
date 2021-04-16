@@ -1,6 +1,6 @@
-$(window).on("load",function(){
-  $("img").fadeIn();
-})
+window.onload = function() {
+  $("a.float").addClass("home-visibility")
+};
 
 $(window).scroll(function() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -8,8 +8,4 @@ $(window).scroll(function() {
   } else {
     $("a.float").fadeOut();
   }
-});
-
-$(".carousel-ite'").show('slow', function(){
-    $(this).fadeIn();
 });
