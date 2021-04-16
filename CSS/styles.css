@@ -47,20 +47,23 @@ h3{
   background-color: #fff;
   height: 0.5rem;
 }
-.container-content .col-md-3  {
-  background-color: #343a40;
-}
-
-.container-content .col-md-9 {
-  background-color: #fff;
-}
-
-
-
 
 .container-top .block2 {
   background-color: #fff;
   height: 1rem;
+}
+
+.container-content .col-md-3,.container-footer .col-md-3  {
+  background-color: #343a40;
+}
+
+.container-content .col-md-9,.container-footer .col-md-9 {
+  background-color: #fff;
+}
+
+.container-footer .col-md-9 {
+  font-size: 13px;
+  text-align: center;
 }
 
 .profilepic-img{
@@ -107,11 +110,29 @@ h3{
 }
 
 .content-p {
-  font-family: 'Economica', sans-serif;
-  color: white;
-  font-size: 1.1rem;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.content-h5-2a {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.content-h5-2b {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #F0361B;
+}
+
+.content-p-2 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 1rem;
 }
 
 .appimg {
