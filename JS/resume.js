@@ -6,6 +6,7 @@ var txtm = [" "," ", " ","Software Developer", "Web Developer", "Android Program
 window.onload = function() {
   $("a.float").addClass("home-visibility")
   var myfunc = setInterval(typeWriterEffect,100);
+  $("h1").slideDown().animate({Opacity: '20%'}).animate({Opacity: '100%'});
 };
 
 $(window).scroll(function() {
