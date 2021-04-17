@@ -24,8 +24,8 @@ h3{
 
 hr{
   border:none;
-  border-top: 6px dotted  #343a40;
-  width: 50px;
+  border-top: 4px dotted  #343a40;
+  width: 30px;
 }
 /* Container */
 
@@ -111,7 +111,7 @@ hr{
   font-weight: lighter;
   color: #000;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom:1rem; */
 }
 
 .content-p {
@@ -209,5 +209,8 @@ hr{
     height: 4rem;
   }
 
+  h3{
+    padding-bottom: 1rem;
+  }
 
 }
