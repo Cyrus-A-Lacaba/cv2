@@ -78,21 +78,6 @@ hr{
   width: 12rem;
   height:  12rem;
   border: 5px solid #fff;
-  animation: 1s RotatePP;
-}
-
-@keyframes RotatePP {
-  1% {transform: rotateY(45deg);}
-  2% {transform: rotateY(90deg);}
-  3% {transform: rotateY(135deg);}
-  4% {transform: rotateY(180deg);}
-  5% {transform: rotateY(225deg);}
-  6% {transform: rotateY(270deg);}
-  7% {transform: rotateY(315deg);}
-  8% {transform: rotateY(360deg);}
-}
-.profilepic-img:hover{
-
 }
 
 .header .row .col-3, .header .row .col {
