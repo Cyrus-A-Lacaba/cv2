@@ -1,11 +1,13 @@
 var i = 0;
+var i2 = 0;
 var x = 0;
-
+var iforward=0;
+var valToRev="";
 var txtm = [" "," ", " ","Software Developer", "Web Developer", "Android Programmer"];
 
 window.onload = function() {
   $("a.float").addClass("home-visibility")
-  var myfunc = setInterval(typeWriterEffect,100);
+  typeWriterEffect(txtm);
   $("h1").slideDown().animate({Opacity: '20%'}).animate({Opacity: '100%'});
 };
 
@@ -17,26 +19,43 @@ $(window).scroll(function() {
   }
 });
 
-function typeWriterEffect(){
+// Original Logic
+function typeWriterEffect(strValue) {
+  var myfunc = setInterval(function() {
+    typeChar(strValue);}, 100);
+  var myfunc2 = setInterval(function() {
+    removeChar(strValue);}, 20);
+}
+
+function typeChar(){
   var txtSource;
-  if(x<txtm.length) {
-    if (i<txtm[x].length) {
-
-      if ($("#Occupation").html().length > 0) {
-        $("#Occupation").html($("#Occupation").html().substr(0,$("#Occupation").html().length-1));
+  if (iforward == 0) {
+    if (x<txtm.length) {
+      if (i<txtm[x].length) {
+        if ($("#Occupation").html().length > 0) {
+          $("#Occupation").html($("#Occupation").html().substr(0,$("#Occupation").html().length-1));
+        }
+        txtSource = $("#Occupation").html() + txtm[x].charAt(i) + "I";
+        $("#Occupation").html(txtSource);
+        i++;
+      } else {
+        iforward = 1;
+        valToRev = $("#Occupation").html();
       }
-
-      txtSource = $("#Occupation").html() + txtm[x].charAt(i) + "I";
-      $("#Occupation").html(txtSource);
-
-      i++;
     } else {
-      i = 0;
-      $("#Occupation").html("");
+      x = 0;
+    }
+  }
+}
+
+function removeChar(){
+  if (iforward == 1) {
+    if (i > 0) {
+      $("#Occupation").html(valToRev.substr(0,i));
+      i--;
+    } else {
+      iforward = 0;
       x++;
     }
-  } else {
-    x = 0;
-    // clearInterval(myfunc);
   }
 }
