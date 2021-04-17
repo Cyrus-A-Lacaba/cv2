@@ -8,7 +8,8 @@ var txtm = [" "," ", " ","Software De","Software Developer", "Web Developer", "A
 window.onload = function() {
   $("a.float").addClass("home-visibility")
   typeWriterEffect(txtm);
-  $("h1").slideDown().animate({Opacity: '20%'}).animate({Opacity: '100%'});
+  $("h1").animate({Opacity: '20%'}).animate({Opacity: '100%'});
+  $(".content-p").slideDown();
 };
 
 $(window).scroll(function() {
