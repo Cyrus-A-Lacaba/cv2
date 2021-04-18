@@ -3,7 +3,7 @@ var i2 = 0;
 var x = 0;
 var iforward=0;
 var valToRev="";
-var txtm = [" "," ", " ","Software De","Software Developer", "Web Developer", "Andro", "Android Programmer"];
+var txtm = [" "," ", " ","Softqare De","Software Developer", " ", "Web Developer", "Androd", "Android Programmer"];
 
 window.onload = function() {
   $("a.float").addClass("home-visibility")
