@@ -209,15 +209,15 @@ p#skillx_controls {
 #skillx {
   display:inline-block;
   position:relative;
-  height:260px;
-  width:250px;
+  height:230px;
+  width:220px;
   margin:0 auto 10px;
 }
 
 #skillx img {
-  position:absolute;
-  height:260px;
-  width:250px;
+  position:absolute;  
+  height:230px;
+  width:220px;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
