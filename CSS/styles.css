@@ -97,6 +97,10 @@ hr{
     padding: 0;
 }
 
+.div-occupation {
+  height: 2.5rem;
+}
+
 .content-h3 {
   font-family: 'Anton', sans-serif;
   font-weight: lighter;
