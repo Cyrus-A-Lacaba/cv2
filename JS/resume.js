@@ -60,3 +60,11 @@ function removeChar(){
     }
   }
 }
+
+$("#skillx_controls").on('click', 'span', function() {
+    $("#skillx img").removeClass("opaque");
+    var newImage = $(this).index();
+    $("#skillx img").eq(newImage).addClass("opaque");
+    $("#skillx_controls span").removeClass("selected");
+    $(this).addClass("selected");
+  });

@@ -192,6 +192,48 @@ hr{
   padding: 10px;
 }
 
+/* Skills Images */
+p#skillx_controls {
+  margin-right:2em;
+  display:inline-block;
+  text-align:left;
+  height: 18rem;
+  width: 2.5rem;
+}
+
+#skillx_controls span {
+  cursor:pointer;
+  padding-right: 1rem;
+}
+
+#skillx {
+  display:inline-block;
+  position:relative;
+  height:260px;
+  width:250px;
+  margin:0 auto 10px;
+}
+
+#skillx img {
+  position:absolute;
+  height:260px;
+  width:250px;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#skillx img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
 
 @media only screen and (max-width:900px) {
   h1{
