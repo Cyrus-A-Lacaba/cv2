@@ -207,7 +207,7 @@ p#skillx_controls {
 #skillx_controls span {
   cursor:pointer;
   /* padding-right: 1rem;*/
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 #skillx {
@@ -252,13 +252,12 @@ p#skillx_controls {
 
   .appimg {
     width: 4rem;
-    height: 4rem;
-
+    height: 5rem;
   }
 
   .dbimg {
     width: 14rem;
-    height: 4rem;
+    height: 5rem;
   }
 
   h3{
