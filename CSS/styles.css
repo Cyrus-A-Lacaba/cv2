@@ -204,6 +204,7 @@ p#skillx_controls {
 #skillx_controls span {
   cursor:pointer;
   padding-right: 1rem;
+  visibility: hidden;
 }
 
 #skillx {
@@ -215,7 +216,7 @@ p#skillx_controls {
 }
 
 #skillx img {
-  position:absolute;  
+  position:absolute;
   height:230px;
   width:220px;
   left:0;
