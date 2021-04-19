@@ -8,6 +8,9 @@ body{
 
 
 h1{
+  position: relative;
+  left: 100%;
+  width: 100%;
   color: #fff;
   font-family: 'Anton', sans-serif;
   letter-spacing: 0.5rem;
@@ -116,7 +119,7 @@ hr{
   font-weight: lighter;
   color: #000;
   padding-top: 2rem;
-  padding-bottom:1rem; */
+  padding-bottom:1rem;
 }
 
 .content-p {
@@ -203,7 +206,7 @@ p#skillx_controls {
 
 #skillx_controls span {
   cursor:pointer;
-  padding-right: 1rem;
+  /* padding-right: 1rem;*/
   visibility: hidden;
 }
 

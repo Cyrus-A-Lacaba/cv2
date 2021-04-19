@@ -8,7 +8,9 @@ var txtm =  [" "," ", " ","Softqare De","Software Developer", " ", "Web Develope
 window.onload = function() {
   $("a.float").addClass("home-visibility")
   typeWriterEffect("#Occupation",txtm);
-  $("h1").animate({Opacity: '20%'}).animate({Opacity: '100%'});
+  $("h1").animate({left: '0%'}).animate({Opacity: '20%'}).animate({Opacity: '100%'});
+  $("h2").animate({Opacity: '20%'}).animate({Opacity: '100%'});  
+  $("h3").animate({Opacity: '20%'}).animate({Opacity: '100%'});
   $(".content-p").slideDown();
 
   var myfuncx = setInterval(alternateImg, 1200);
@@ -68,7 +70,7 @@ function removeChar(targetID){
 //     var newImage = $(this).index();
 //     $("#skillx img").eq(newImage).addClass("opaque");
 //     $("#skillx_controls span").removeClass("selected");
-//     $(this).addClass("selected");//     
+//     $(this).addClass("selected");//
 // });
 
 
