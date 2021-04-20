@@ -214,14 +214,14 @@ p#skillx_controls {
 #skillx {
   display:inline-block;
   position:relative;
-  height:230px;
+  height:240px;
   width:220px;
   margin:0 auto;
 }
 
 #skillx img {
   position:absolute;
-  height:230px;
+  height:240px;
   width:220px;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
