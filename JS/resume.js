@@ -3,13 +3,13 @@ var x = 0;
 var iImg = 0;
 var iforward=0;
 var valToRev="";
-var txtm =  [" "," ", " ","Softqare De","Software Developer", " ", "Web Developer", "Androd", "Android Programmer"];
+var txtm =  [" "," ", " ","Software Developer", " "," ", " ", "Web Developer", "Android Programmer"];
 
 window.onload = function() {
   $("a.float").addClass("home-visibility")
   typeWriterEffect("#Occupation",txtm);
   $("h1").animate({left: '0%'}).animate({Opacity: '20%'}).animate({Opacity: '100%'});
-  $("h2").animate({Opacity: '20%'}).animate({Opacity: '100%'});  
+  $("h2").animate({Opacity: '20%'}).animate({Opacity: '100%'});
   $("h3").animate({Opacity: '20%'}).animate({Opacity: '100%'});
   $(".content-p").slideDown();
 

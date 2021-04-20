@@ -1,5 +1,6 @@
 *{
   scroll-behavior: smooth;
+
 }
 
 body{
@@ -9,7 +10,7 @@ body{
 
 h1{
   position: relative;
-  left: 100%;
+  left: 120%;
   width: 100%;
   color: #fff;
   font-family: 'Anton', sans-serif;
@@ -197,7 +198,7 @@ hr{
 
 /* Skills Images */
 p#skillx_controls {
-  margin-right:2em;
+  margin-right:1em;
   display:inline-block;
   text-align:left;
   height: 18rem;
@@ -206,22 +207,22 @@ p#skillx_controls {
 
 #skillx_controls span {
   cursor:pointer;
-  /* padding-right: 1rem;*/
+  padding-right: 1rem;
   visibility: hidden;
 }
 
 #skillx {
   display:inline-block;
   position:relative;
-  height:250px;
-  width:230px;
+  height:230px;
+  width:220px;
   margin:0 auto;
 }
 
 #skillx img {
   position:absolute;
-  height:250px;
-  width:230px;
+  height:230px;
+  width:220px;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
