@@ -196,6 +196,19 @@ hr{
   padding: 10px;
 }
 
+div .download {
+  align-content: center;
+}
+
+.showDownload {
+  display:block;
+  margin: auto auto 0.5rem auto;
+}
+
+.hideDownload {
+  display:none;
+}
+
 /* Skills Images */
 p#skillx_controls {
   margin-right:1em;

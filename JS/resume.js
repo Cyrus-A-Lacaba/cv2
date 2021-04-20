@@ -1,4 +1,5 @@
 var i = 0;
+var ibttn = 0;
 var x = 0;
 var iImg = 0;
 var iforward=0;
@@ -6,7 +7,8 @@ var valToRev="";
 var txtm =  [" "," ", " ","Software Developer", " "," ", " ", "Web Developer", "Android Programmer"];
 
 window.onload = function() {
-  $("a.float").addClass("home-visibility")
+  $("button.btn").addClass("hideDownload");
+  $("a.float").addClass("home-visibility");
   typeWriterEffect("#Occupation",txtm);
   $("h1").animate({left: '0%'}).animate({Opacity: '20%'}).animate({Opacity: '100%'});
   $("h2").animate({Opacity: '20%'}).animate({Opacity: '100%'});
@@ -82,3 +84,16 @@ function alternateImg() {
     $("#skillx img").eq(iImg + 1).removeClass("selected");
     iImg++;
 };
+
+$(".container-top .profilepic-img").on("dblclick", function() {
+  if (ibttn==0) {
+    $("button.btn").removeClass("hideDownload");
+    $("button.btn").addClass("showDownload");
+    ibttn=1;
+  } else {
+    $("button.btn").removeClass("showDownload");
+    $("button.btn").addClass("hideDownload");
+    ibttn=0;
+  }
+  // $(".container-top .profilepic-img").animate({opacity:'0'});
+});
