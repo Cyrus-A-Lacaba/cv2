@@ -153,6 +153,14 @@ hr{
   padding-bottom: 2rem;
 }
 
+.content-p-3 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
 .appimg {
   width: 6rem;
   height: 6rem;
@@ -211,7 +219,7 @@ div .download {
 
 /* Skills Images */
 p#skillx_controls {
-  margin-right:1em;
+  margin-right:1rem;
   display:inline-block;
   text-align:left;
   height: 18rem;
@@ -221,7 +229,7 @@ p#skillx_controls {
 #skillx_controls span {
   cursor:pointer;
   padding-right: 1rem;
-  visibility: hidden;
+  visibility:hidden;
 }
 
 #skillx {
@@ -237,6 +245,7 @@ p#skillx_controls {
   height:240px;
   width:220px;
   left:0;
+  top:-90px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -263,17 +272,7 @@ p#skillx_controls {
     width: 10.5rem;
     height:  10.5rem;
   }
-
-  /* .appimg {
-    width: 4rem;
-    height: 5rem;
-  } */
-
-  /* .dbimg {
-    width: 14rem;
-    height: 5rem;
-  } */
-
+  
   h3{
     padding-bottom: 1rem;
   }

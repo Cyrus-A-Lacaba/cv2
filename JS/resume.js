@@ -67,19 +67,10 @@ function removeChar(targetID){
     }
 }
 
-// $("#skillx_controls").on('click', 'span', function() {
-//     $("#skillx img").removeClass("opaque");
-//     var newImage = $(this).index();
-//     $("#skillx img").eq(newImage).addClass("opaque");
-//     $("#skillx_controls span").removeClass("selected");
-//     $(this).addClass("selected");//
-// });
-
-
 function alternateImg() {
     $("#skillx img").eq(iImg).removeClass("opaque");
     $("#skillx img").eq(iImg).removeClass("selected");
-    if (iImg == 12) {iImg=-1};
+    if (iImg == 16) {iImg=-1};
     $("#skillx img").eq(iImg + 1).addClass("opaque");
     $("#skillx img").eq(iImg + 1).removeClass("selected");
     iImg++;
